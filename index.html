@@ -5,7 +5,7 @@
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="estilo-index.css">
 </head>
-<body class="home">
+<body id = 'tres-colunas' class="home">
 	<!-- Incio Container -->
 	<div id="container">
 		<!-- Incio Topo -->
@@ -24,11 +24,119 @@
 		</div> <!-- Fim Topo -->
 		<!-- Inicio Corpo-->
 		<div id="corpo">
-			
-			<div id="primario">Primario</div>
-			<div id="secundario">Secundario</div>
-			<div id="lateral">Lateral</div>
+			<!-- Inicio Primario-->
+			<div id="primario">
+				<div class="caixa destaque">
+					<h2>Ultima Entrevista</h2>
+					<div class = 'caixa-conteudo'>
+						<h3>Entrevista com Felipe Silva</h3>
+						<img src="doutor.jpg" width="100%">
+						<p>Médico e doutor em neurociência formado pela USP nos dá uma entrevista exclusiva sobre os mistérios da mente humana.
+						</p>
+						<a href="">Leia mais...</a>
+					</div>
+				</div>
+				<div class="caixa" class="destaque">
+					<h2>Mundo</h2>
+					<div class = 'caixa-conteudo'>
+					    <ul id = 'lista-noticias'>
+							<li><a href="">
+								<img src="mundo.jpg" width="80">
+								<h3>Crise Financeira.
+								</h3>
+								<p>Lorem ipsum dolor sit amet consectur...</p>
+							</a></li>
+							<li><a href=""><img src= "cidade.jpg" width="80">
+								<h3>Crise Financeira.</h3>
+								<p>Lorem ipsum dolor sit amet consectur...</p></a></li>
+							<li><a href=""><img src="mundo.jpg" width="80">
+								<h3>Crise Financeira.</h3>
+								<p>Lorem ipsum dolor sit amet consectur...</p></a></li>
+							<li><a href=""><img src="cidade.jpg" width="80">
+								<h3>Crise Financeira.</h3>
+								<p>Lorem ipsum dolor sit amet consectur...</p></a></li>
+						</ul>
+					</div>
+				</div>
 
+			</div>
+			<!-- Fim Primario-->
+			<!-- Inicio Secundario-->
+			<div id="secundario">
+				<div class="caixa destaque">
+					<h2>Destaque</h2>
+					<div class = 'caixa-conteudo'>
+						<h3>Nova Legislação</h3>
+						<img src="taxi.jpg" width="100%">
+						<p>Nova Legislação em nova york prevê que taxis não terão mais ponto único, 
+							e sim ponto geral, junto com uber, 99 e outros motoristas de aplicativos.
+						</p>
+						<a href="">Leia mais...</a>
+					</div>
+				</div>
+				<div class="caixa" class="destaque">
+					<h2>Novas tecnologias</h2>
+					<div class = 'caixa-conteudo'>
+					    <ul id = 'lista-noticias'>
+							<li><a href="">
+								<img src="tecnologia.jpg" width="80">
+								<h3>Novas tecnologias!</h3>
+								<p>Lorem ipsum dolor sit amet consectur...</p>
+							</a></li>
+							<li><a href=""><img src="tecnologia.jpg" width="80">
+								<h3>Novas tecnologias!</h3>
+								<p>Lorem ipsum dolor sit amet consectur...</p></a></li>
+							<li><a href=""><img src="tecnologia.jpg" width="80">
+								<h3>Novas tecnologias!</h3>
+								<p>Lorem ipsum dolor sit amet consectur...</p></a></li>
+							<li><a href=""><img src="tecnologia.jpg" width="80">
+								<h3>Novas tecnologias!</h3>
+								<p>Lorem ipsum dolor sit amet consectur...</p></a></li>
+						</ul>
+					</div>
+				</div>	
+
+
+			</div>
+			<!-- Fim Secundario-->
+			<!-- Inicio Lateral-->
+			<div id="lateral">
+				<div class="caixa">
+					<h2>Entrevistas</h2>
+					<div class = 'caixa-conteudo'>
+						<ul>
+							<li><a href="">José Almeida</a></li>
+							<li><a href="">Ricardo Sales</a></li>
+							<li><a href="">Bene Barbosa</a></li>
+							<li><a href="">Felipe Silva</a></li>
+							<li><a href="">Godoy aconti</a></li>
+							<li><a href="">Ritl asdi</a></li>
+							<li><a href="">Asmut habab</a></li>
+							<li><a href="">Xinping Kandi</a></li>
+
+						</ul>
+					</div>
+					<div class="caixa">
+						<h2>News</h2>
+						<div class = 'caixa-conteudo'>
+							
+							<form>
+							<div>
+								<label for='email'>Email:</label>
+								<input type='text' name='email' id='email' placeholder='E-mail'>
+							</div>
+							<div>
+								<input class='submit'type='submit' value="Cadastrar">
+							</div>
+							</form>
+
+						</div>
+					</div>
+
+
+				</div>
+			</div>
+			<!--Fim Lateral-->
 
 
 
